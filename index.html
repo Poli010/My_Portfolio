@@ -1,0 +1,243 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Portfoilio</title>
+    <link rel="website icon" href="images/cool.png" type="image/x-icon">
+    <link rel="stylesheet" href="index.css">
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script src="https://kit.fontawesome.com/355342439a.js" crossorigin="anonymous"></script>
+    <script src="https://unpkg.com/typed.js@2.1.0/dist/typed.umd.js"></script>
+</head>
+<body class="m-0  h-screen dark:bg-slate-900 dark:text-white overflow-x-hidden" >
+    <div class="container w-screen" id="container"> 
+        <!-------HEADER NAVBAR----->
+        <div class="header bg-slate-300 dark:bg-slate-600 flex items-center flex-row h-20 w-screen sticky top-0 z-50" id="header">
+            <img src="images/name.png" alt="" class="w-52 h-28" >
+            <label for="check" class="fixed right-10 text-xl lg:hidden cursor-pointer" onclick="menu()"><i class="fa-solid fa-bars"></i></label>
+            <button class="fixed right-20  bg-blue-500 text-white rounded-xl w-16 h-9 text-sm sm:w-24 sm:text-lg hover:bg-blue-700 duration-500 lg:right-12 z-10" id="hire" onclick="hireme()">Hire Me</button>
+            <div class="nav justify-center items-center left-0 lg:block " id="navbar">
+                <nav id="menu_bar" class="menu_bar  fixed top-12 h-20 w-screen left-0 lg:bg-transparent lg:top-10">
+                    <input type="checkbox" class="hidden peer" id="check">
+                    <ul class="list flex items-center flex-col bg-slate-300 dark:bg-slate-700  h-0 lg:flex-row lg:float-right lg:mr-40  overflow-hidden lg:overflow-visible peer-checked:h-96 lg:peer-checked:h-0  transition-all duration-500" >
+                        <li class="m-4 text-md ">
+                            <a href="#" class="hover:text-red-700 hover:border-b-2 hover:border-b-red-600">Home</a>
+                        </li>
+                        <li class="m-4 text-md ">
+                            <a href="#about" class="hover:text-red-700 hover:border-b-2 hover:border-b-red-600">About</a>
+                        </li>
+                        <li class="m-4 text-md ">
+                            <a href="#skills" class="hover:text-red-700 hover:border-b-2 hover:border-b-red-600">Skills</a>
+                        </li>
+                        <li class="m-4 text-md ">
+                            <a href="#project"class="hover:text-red-700 hover:border-b-2 hover:border-b-red-600">Project</a>
+                        </li>
+                        <li class="m-4 text-md ">
+                            <a href="#footer" class="hover:text-red-700 hover:border-b-2 hover:border-b-red-600">Contact</a>
+                        </li>
+                        <li>
+                            <button class="lg:hidden bg-blue-500 text-white rounded-xl w-24 h-9 text-md hover:bg-blue-700 duration-500 " onclick="hireme()"">Hire Me</button>
+                        </li>
+                    </ul>
+                </nav>
+            </div>
+        </div>
+        <!-------HEADER NAVBAR END----->
+
+        <!-------HOME PAGE----->
+        <div class=" flex flex-col justify-center items-center w-screen  mt-10 md:flex-row">
+            <img src="images/me without bg.png" alt="ivan" srcset="" title="Pogi/Handsome" class=" h-52 w-40 md:w-[300px] md:h-[400px]" data-aos="fade-in" data-aos-duration="1000">
+            <div class="social-cv text-center  w-46 sm:w-96 md:mt-32" data-aos="fade-up" data-aos-duration="1000">
+                <h1 class="font-bold text-xl lg:text-2xl">Hi, I'm <span class="auto-type-name text-red-600 font-bold"></span></h1>
+                <p class="">You can contact me if you need help in making a website for you or for your business.</p> 
+                <a href="https://www.facebook.com/profile.php?id=61559649675663" title="Facebook" class="text-[20px] m-1 hover:text-2xl hover:text-red-600 duration-500"><i class="fa-brands fa-facebook"></i></a> 
+                <a href="https://www.instagram.com/ivn_plcrp/" title="Instagram" class="text-[20px] m-1 hover:text-2xl hover:text-red-600 duration-500"><i class="fa-brands fa-instagram"></i></a>
+                <a href="https://www.t.me/policutie" title="Telegram" class="text-[20px] m-1 hover:text-2xl hover:text-red-600 duration-500"><i class="fa-brands fa-telegram"></i></a>
+                <a href="https://www.linkedin.com/in/ivan-policarpio-91476729b" title="Linked-In" class="text-[20px] m-1 hover:text-2xl hover:text-red-600 duration-500"><i class="fa-brands fa-linkedin"></i></a>
+                <a href="" download="CV/Policarpio-Arnold-Ivan-cv.docx" class="border-2 border-red-600 m-1 px-3 rounded-xl bg-red-600 text-white text-[15px] hover:bg-red-900 duration-500">Download CV</a>
+            </div>
+        </div>
+        <!------HOME PAGE END----->
+
+        <!-------ABOUT PAGE----->
+        <div class="w-screen mt-52 flex flex-col items-center" id="about">
+            <h1 class="font-bold text-xl text-center">About Me</h1>
+            <div class="mt-5 flex flex-col justify-center items-center md:flex-row" >
+                <div class="text-wrap w-[315px] pl-2 pr-2 md:w-[400px] lg:w-[500px]" data-aos="fade-right" data-aos-duration="1000">
+                    <p><span class="text-red-500 font-bold">Hi! I'm Arnold Ivan Policarpio</span></p> 
+                    <br>
+                    <p>I graduated at Colegio De San Gabriel Arcangel, Bachelor of Science in Information Technology in June, 12, 2024.</p>
+                    <p>I choose IT because i found joy in exploring how things work, and that curiosity led me to pursue a career in IT.</p>
+                    <p>I aspire to become a web developer someday because I find it both exciting and challenging.</p>
+                    <p>It pushes me to explore my limits  and think critically about how to solve complex logic problems.</p>
+                    <br>
+                    <p><span class="text-red-500 font-bold">Work Experience:</span></p>
+                    <p>-My <span class="text-red-500 font-bold">On the Job Training(OJT 640 hours)</span>is at DEPED School Division at City of San Jose Del Monte Bulacan.</p>  
+                    <p>In DEPED we create a system that called Electronic Requisition and Issue Slip(E-RIS) and Electronic Visitor's Logbook(E-Visitor's Logbook).</p>
+                    <br>
+                    <p>-And i also try<span class="text-red-500 font-bold">Freelancing</span>  i create a system for LCC students for their Capstone, the system is like online shop it is called Goldtags Apparel.</p>
+                    <br>
+                    <p>-And also i create our<span class="text-red-500 font-bold"> Capstone Project</span> it is called Electronic Locator Services(E-Locator Services)</p>
+                    <br>
+                    <p><span class="text-red-500 font-bold">Hobbies:</span> </p>
+                    <p>My Hobby is to Play basketball, Listening into Music, Motorcycle Ride and Working out at the Gym (not IT related).</p>
+                    <p> These hobbies help me to relax and remove my stress and anxiety in my body. When I'm not immersed in lines of code, you can find me at Basketball Court or Gym.</p>
+                    <p>I believe in maintaining a healthy work-life balance.</p>
+                </div>
+                <img src="images/josh mojica.png" alt="" class="w-[200px] md:w-[250px] lg:w-[350px]" data-aos="fade-in" data-aos-duration="1000">
+            </div>
+        </div>
+        
+        <!-------ABOUT PAGE END----->
+
+        <!-------SKILLS PAGE----->
+        <div class=" w-screen mt-72 flex flex-col items-center" id="skills">
+            <h1 class="text-2xl font-bold text-center" data-aos="fade-in" data-aos-duration="1000">Skills</h1>
+            <div class="mt-5 grid grid-col-1 gap-4 justify-center md:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4" id="skills" data-aos="fade-up" data-aos-duration="1000"> 
+                <div class="php border-2 border-slate-300 flex flex-col justify-center items-center h-72 w-60 ml-10 rounded-xl">
+                    <div class="w-40 h-40 bg-contain bg-no-repeat bg-center z-10" style="background-image: url(LOGO/PHP.png);"></div>
+                    <p class="text-center font-bold">PHP</p>
+                    <p class="px-4">Hypertext Preprocessor (PHP) is an open-source, free server-side scripting language widely used in web development.</p>
+                </div>
+                <div class="php border-2 border-slate-300 flex flex-col justify-center items-center h-72 w-60 ml-10 rounded-xl">
+                    <div class="w-40 h-40 bg-contain bg-no-repeat bg-center z-10" style="background-image: url(LOGO/HTML.png);"></div>
+                    <p class="text-center font-bold">HTML</p>
+                    <p class="px-4">HyperText Markup Language (HTML) is the basic scripting language used by web browsers to render pages on the World Wide Web.</p>
+                </div>
+                <div class="php border-2 border-slate-300 flex flex-col justify-center items-center h-72 w-60 ml-10 rounded-xl">
+                    <div class="w-40 h-40 bg-contain bg-no-repeat bg-center z-10" style="background-image: url(LOGO/CSS.png);"></div>
+                    <p class="text-center font-bold">CSS</p>
+                    <p class="px-4">CSS is a computer language for laying out and structuring web pages (HTML or XML).</p>
+                </div>
+                <div class="php border-2 border-slate-300 flex flex-col justify-center items-center h-72 w-60 ml-10 rounded-xl">
+                    <div class="w-40 h-40 bg-contain bg-no-repeat bg-center z-10" style="background-image: url(LOGO/JS.png);"></div>
+                    <p class="text-center font-bold">JAVASCRIPT</p>
+                    <p class="px-4">JavaScript is a scripting language that enables you to create dynamically updating content, control multimedia, animate images, and pretty much everything else</p>
+                </div>
+                <div class="php border-2 border-slate-300 flex flex-col justify-center items-center h-72 w-60 ml-10 rounded-xl">
+                    <div class="w-40 h-40 bg-contain bg-no-repeat bg-center z-10" style="background-image: url(LOGO/Tailwind.png);"></div>
+                    <p class="text-center font-bold">TAILWIND CSS</p>
+                    <p class="px-4">Tailwind is a CSS framework that provides us with single-purpose utility classes which are opinionated for the most part, and which help us design our web pages from right inside our markup or . js/. jsx/.</p>
+                </div>
+                <div class="php border-2 border-slate-300 flex flex-col justify-center items-center h-72 w-60 ml-10 rounded-xl">
+                    <div class="w-40 h-40 bg-contain bg-no-repeat bg-center z-10" style="background-image: url(LOGO/MYSQL.png);"></div>
+                    <p class="text-center font-bold">MYSQL</p>
+                    <p class="px-4">MySQL is an open-source relational database management system. </p>
+                </div>
+            </div>
+        </div>
+        
+       <!--------SKILLS PAGE END----->
+        
+        <!-------PROJECT PAGE----->
+        <div class="project  mt-52 w-screen flex flex-col items-center" data-aos="fade-down" data-aos-duration="1000" id="project">
+                <h1 class="text-2xl font-bold text-center">Project</h1>
+                <div class="mt-5 grid grid-cols-1 gap-4 md:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 ">
+                    <div class="ris border-2 border-slate-300 h-72 w-64 ml-10 rounded-xl">
+                        <div class="img">
+                            <div class="w-full h-24 bg-contain bg-no-repeat bg-center mt-5 z-10" style="background-image: url(LOGO/depedcsjdmlogo.png);"></div>
+                        </div>
+                        <div class="see_img mt-14 ml-5">
+                            <p class="pb-5 font-bold">E-Requisition and Issue Slip(E-RIS)</p>
+                            <button class="bg-blue-500 px-4 pt-1 pb-1 text-white rounded-md hover:bg-blue-800 duration-500" onclick="ris()">See Image</button>
+                        </div>
+                    </div>
+    
+                    <div class="e-logsheet border-2 border-slate-300 h-72 w-64 ml-10 rounded-xl">
+                        <div class="img">
+                            <div class="w-full h-24 bg-contain bg-no-repeat bg-center mt-5 z-10" style="background-image: url(LOGO/depedcsjdmlogo.png);"></div>
+                        </div>
+                        <div class="see_img mt-14 ml-5">
+                            <p class="pb-5 font-bold">Electronic Visitors Logbook(E-Logsheet)</p>
+                            <button class="bg-blue-500 px-4 pt-1 pb-1 text-white rounded-md hover:bg-blue-800 duration-500" onclick="logsheet()">See Image</button>
+                        </div>
+                    </div>
+    
+                    <div class="e-locator border-2 border-slate-300 h-72 w-64 ml-10 rounded-xl">
+                        <div class="img">
+                            <div class="w-full h-24 bg-contain bg-no-repeat bg-center mt-5 z-10" style="background-image: url(LOGO/E-locator.png);"></div>
+                        </div>
+                        <div class="see_img mt-14 ml-5">
+                            <p class="pb-5 font-bold">Electronic Locator Services(E-Locator)</p>
+                            <button class="bg-blue-500 px-4  pt-1 pb-1 text-white rounded-md hover:bg-blue-800 duration-500" onclick="locator()">See Image</button>
+                        </div>
+                    </div>
+    
+                    <div class="goldtags border-2 border-slate-300 h-72 w-64 ml-10 rounded-xl">
+                        <div class="img">
+                            <div class="w-full h-24 bg-contain bg-no-repeat bg-center mt-5 z-10" style="background-image: url(LOGO/goldtags.png);"></div>
+                        </div>
+                        <div class="see_img mt-14 ml-5">
+                            <p class="pb-5 font-bold">Goldtags Apparel</p>
+                            <button class="bg-blue-500 px-4 mt-5 pt-1 pb-1 text-white rounded-md hover:bg-blue-800 duration-500" onclick="goldtags()">See Image</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        
+       <!-------PROJECT PAGE END----->
+
+        <!---FOOTER---->
+        <hr class="mt-10 border-b-1 border-black w-screen">
+        <div class="footer" id="footer">
+            <div class="footer_info grid grid-col-1 w-screen">
+                <div class="logo flex justify-center" data-aos="fade-in" data-aos-duration="1000">
+                    <img src="images/name.png" alt="" srcset="" width="250">
+                </div>
+                <div class="contact lg:ml-20 " data-aos="fade-in" data-aos-duration="1000">
+                    <div class="social ml-2 grid grid-col-1 lg:grid-cols-2">
+                        <div class="social flex flex-col" >
+                            <p class="font-bold">Contact Me Via:</p>
+                            <a href="https://www.facebook.com/profile.php?id=61559649675663" title="Facebook" class="hover:text-purple-600 duration-500"><i class="fa-brands fa-facebook"> <span>Facebook</span></i></a> 
+                            <a href="https://www.instagram.com/ivn_plcrp/" title="Instagram" class="hover:text-purple-600 duration-500"><i class="fa-brands fa-instagram"></i> <span>Instagram</span></a>
+                            <a href="https://www.t.me/policutie" title="Telegram" class="hover:text-purple-600 duration-500"><i class="fa-brands fa-telegram"> <span>Telegram</span></i></a>
+                            <a href="https://www.linkedin.com/in/ivan-policarpio-91476729b" title="Linked-In" class="hover:text-purple-600 duration-500"><i class="fa-brands fa-linkedin"> <span>Linked-In</span></i></a>
+                        </div>
+                        <div class="email lg:ml-40 xl:ml-96"  >
+                            <p><i class="fa-solid fa-envelope"></i> <span>ivanpolicarpio015@gmail.com</span></p>
+                            <p><i class="fa-solid fa-phone"></i> <span>+639485905921</span></p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="copyright text-center w-screen bg-slate-300 mt-5 dark:bg-slate-700 ">
+                <p><i class="fa-regular fa-copyright"></i>Copyright. All rights reserved.</p>
+            </div>
+        </div>
+    
+        <!---FOOTER END-->
+        <div class="hire_me_modal bg-slate-300 rounded-lg dark:bg-slate-700" id="modal">
+            <div class="modal">
+                <form action="send_message.php" method="post" class="flex items-center justify-center flex-col">
+                    <button type="button" class="fixed right-3 top-1 font-bold text-lg hover:text-red-500 duration-500" onclick="asd()"><i class="fa-solid fa-x"></i></button>
+                    <input type="hidden" name="my_email" value="ivanpolicarpio015@gmail.com">
+                    <h1 class=" text-xl font-bold mt-3">Send me message</h1>
+                    <input type="text"name="your_email" placeholder="your_email@gmail.com" class="dark:text-black mt-5 w-60 border-[1px] border-black rounded-lg outline-none" required autocomplete="off">
+                    <textarea name="message" id="" class="dark:text-black resize-none mt-2 h-56 w-80 rounded-xl border-[1px] border-black outline-none" placeholder="Hire me :>" required></textarea>
+                    <button  name="submit" id="send" class="dark:bg-emerald-800 mt-5 bg-emerald-500 pl-2 pr-2 pt-1 pb-1 rounded-md hover:bg-emerald-700 hover:text-white duration-500" onclick="mensahe()">Send <i class="fa-solid fa-paper-plane"></i></button>
+                    <p id="sending" class="hidden mt-2">Sending....</p>
+                </form>
+            </div>
+        </div>
+    </div>
+        
+
+    
+
+
+
+
+
+    
+
+
+
+    
+
+<script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+<script src="index.js"></script>
+</body>
+</html>
