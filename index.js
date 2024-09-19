@@ -35,6 +35,9 @@ function goldtags(){
     window.location.href = "project_location/goldtags.html";
 }
 
+function kfc(){
+    window.location.href = "project_location/kfc.html";
+}
 //HIRE ME MODAL
 function hireme(){
     var modal = document.getElementById("modal");
@@ -45,12 +48,13 @@ function asd(){
 }
 
 function mensahe(){
-    let send = document.getElementById("send");
+    let send = document.getElementById("sender");
     let sending = document.getElementById("sending");
 
-    send.style.display = "none";
-    sending.style.display = "block";
+    send.style.display = "none";      // Hide the button
+    sending.style.display = "block";  // Show the "Sending..." message
 }
+
 
 //SCROLL IN ANIMATION
 AOS.init();

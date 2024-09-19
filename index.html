@@ -62,7 +62,7 @@
         <!------HOME PAGE END----->
 
         <!-------ABOUT PAGE----->
-        <div class="w-screen mt-52 flex flex-col items-center" id="about">
+        <div class="w-screen scroll-mt-[83px] mt-52 flex flex-col items-center" id="about">
             <h1 class="font-bold text-xl text-center">About Me</h1>
             <div class="mt-5 flex flex-col justify-center items-center md:flex-row" >
                 <div class="text-wrap w-[315px] pl-2 pr-2 md:w-[400px] lg:w-[500px]" data-aos="fade-right" data-aos-duration="1000">
@@ -93,7 +93,7 @@
         <!-------ABOUT PAGE END----->
 
         <!-------SKILLS PAGE----->
-        <div class=" w-screen mt-72 flex flex-col items-center" id="skills">
+        <div class=" w-screen mt-72 flex flex-col items-center scroll-mt-[83px] " id="skills">
             <h1 class="text-2xl font-bold text-center" data-aos="fade-in" data-aos-duration="1000">Skills</h1>
             <div class="mt-5 grid grid-col-1 gap-4 justify-center md:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4" id="skills" data-aos="fade-up" data-aos-duration="1000"> 
                 <div class="php border-2 border-slate-300 flex flex-col justify-center items-center h-72 w-60 ml-10 rounded-xl">
@@ -132,7 +132,7 @@
        <!--------SKILLS PAGE END----->
         
         <!-------PROJECT PAGE----->
-        <div class="project  mt-52 w-screen flex flex-col items-center" data-aos="fade-down" data-aos-duration="1000" id="project">
+        <div class="project  mt-52 w-screen flex flex-col items-center scroll-mt-[40px] " data-aos="fade-down" data-aos-duration="1000" id="project">
                 <h1 class="text-2xl font-bold text-center">Project</h1>
                 <div class="mt-5 grid grid-cols-1 gap-4 md:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 ">
                     <div class="ris border-2 border-slate-300 h-72 w-64 ml-10 rounded-xl">
@@ -174,6 +174,16 @@
                             <button class="bg-blue-500 px-4 mt-5 pt-1 pb-1 text-white rounded-md hover:bg-blue-800 duration-500" onclick="goldtags()">See Image</button>
                         </div>
                     </div>
+
+                    <div class="reactjs border-2 border-slate-300 h-72 w-64 ml-10 rounded-xl">
+                        <div class="img">
+                            <div class="w-full h-24 bg-contain bg-no-repeat bg-center mt-5 z-10" style="background-image: url(LOGO/KFClogo.png);"></div>
+                        </div>
+                        <div class="see_img mt-14 ml-5">
+                            <p class="pb-5 font-bold">KFC(React JS Practice)</p>
+                            <button class="bg-blue-500 px-4 mt-5 pt-1 pb-1 text-white rounded-md hover:bg-blue-800 duration-500" onclick="kfc()">See Image</button>
+                        </div>
+                    </div>
                 </div>
             </div>
         </div>
@@ -181,7 +191,7 @@
        <!-------PROJECT PAGE END----->
 
         <!---FOOTER---->
-        <hr class="mt-10 border-b-1 border-black w-screen">
+        <hr class="mt-10 border-b-1 border-black w-screen scroll-mt-[83px] ">
         <div class="footer" id="footer">
             <div class="footer_info grid grid-col-1 w-screen">
                 <div class="logo flex justify-center" data-aos="fade-in" data-aos-duration="1000">
@@ -215,9 +225,9 @@
                     <button type="button" class="fixed right-3 top-1 font-bold text-lg hover:text-red-500 duration-500" onclick="asd()"><i class="fa-solid fa-x"></i></button>
                     <input type="hidden" name="my_email" value="ivanpolicarpio015@gmail.com">
                     <h1 class=" text-xl font-bold mt-3">Send me message</h1>
-                    <input type="text"name="your_email" placeholder="your_email@gmail.com" class="dark:text-black mt-5 w-60 border-[1px] border-black rounded-lg outline-none" required autocomplete="off">
-                    <textarea name="message" id="" class="dark:text-black resize-none mt-2 h-56 w-80 rounded-xl border-[1px] border-black outline-none" placeholder="Hire me :>" required></textarea>
-                    <button  name="submit" id="send" class="dark:bg-emerald-800 mt-5 bg-emerald-500 pl-2 pr-2 pt-1 pb-1 rounded-md hover:bg-emerald-700 hover:text-white duration-500" onclick="mensahe()">Send <i class="fa-solid fa-paper-plane"></i></button>
+                    <input type="text" id="your_email" name="your_email" placeholder="your_email@gmail.com" class="dark:text-black mt-5 w-60 border-[1px] border-black rounded-lg outline-none" required autocomplete="off">
+                    <textarea name="message" id="mensahe" class="dark:text-black resize-none mt-2 h-56 w-80 rounded-xl border-[1px] border-black outline-none" placeholder="Hire me :>" required></textarea>
+                    <button type="button" name="submit" id="sender" class="dark:bg-emerald-800 mt-5 bg-emerald-500 pl-2 pr-2 pt-1 pb-1 rounded-md hover:bg-emerald-700 hover:text-white duration-500" onclick="mensahe()">Send <i class="fa-solid fa-paper-plane"></i></button>
                     <p id="sending" class="hidden mt-2">Sending....</p>
                 </form>
             </div>
