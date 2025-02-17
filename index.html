@@ -11,17 +11,17 @@
     <script src="https://kit.fontawesome.com/355342439a.js" crossorigin="anonymous"></script>
     <script src="https://unpkg.com/typed.js@2.1.0/dist/typed.umd.js"></script>
 </head>
-<body class="m-0  h-screen dark:bg-slate-900 dark:text-white overflow-x-hidden" >
+<body class="m-0  h-screen bg-[#F0F2F5]  overflow-x-hidden" >
     <div class="container w-screen" id="container"> 
         <!-------HEADER NAVBAR----->
-        <div class="header bg-slate-300 dark:bg-slate-600 flex items-center flex-row h-20 w-screen sticky top-0 z-50" id="header">
+        <div class="header bg-slate-300  flex items-center flex-row h-20 w-screen sticky top-0 z-50" id="header">
             <img src="images/name.png" alt="" class="w-52 h-28" >
             <label for="check" class="fixed right-10 text-xl lg:hidden cursor-pointer" onclick="menu()"><i class="fa-solid fa-bars"></i></label>
             <button class="fixed right-20  bg-blue-500 text-white rounded-xl w-16 h-9 text-sm sm:w-24 sm:text-lg hover:bg-blue-700 duration-500 lg:right-12 z-10" id="hire" onclick="hireme()">Hire Me</button>
             <div class="nav justify-center items-center left-0 lg:block " id="navbar">
                 <nav id="menu_bar" class="menu_bar  fixed top-12 h-20 w-screen left-0 lg:bg-transparent lg:top-10">
                     <input type="checkbox" class="hidden peer" id="check">
-                    <ul class="list flex items-center flex-col bg-slate-300 dark:bg-slate-700  h-0 lg:flex-row lg:float-right lg:mr-40  overflow-hidden lg:overflow-visible peer-checked:h-96 lg:peer-checked:h-0  transition-all duration-500" >
+                    <ul class="list flex items-center flex-col bg-slate-300   h-0 lg:flex-row lg:float-right lg:mr-40  overflow-hidden lg:overflow-visible peer-checked:h-96 lg:peer-checked:h-0  transition-all duration-500" >
                         <li class="m-4 text-md ">
                             <a href="#" class="hover:text-red-700 hover:border-b-2 hover:border-b-red-600">Home</a>
                         </li>
@@ -56,7 +56,8 @@
                 <a href="https://www.instagram.com/ivn_plcrp/" title="Instagram" class="text-[20px] m-1 hover:text-2xl hover:text-red-600 duration-500"><i class="fa-brands fa-instagram"></i></a>
                 <a href="https://www.t.me/policutie" title="Telegram" class="text-[20px] m-1 hover:text-2xl hover:text-red-600 duration-500"><i class="fa-brands fa-telegram"></i></a>
                 <a href="https://www.linkedin.com/in/ivan-policarpio-91476729b" title="Linked-In" class="text-[20px] m-1 hover:text-2xl hover:text-red-600 duration-500"><i class="fa-brands fa-linkedin"></i></a>
-                <a href="" download="CV/Policarpio-Arnold-Ivan-cv.pdf" class="border-2 border-red-600 m-1 px-3 rounded-xl bg-red-600 text-white text-[15px] hover:bg-red-900 duration-500">Download CV</a>
+                <a href="/CV/Arnold_Ivan_Policarpio_CV(2025).pdf" download class="border-2 border-red-600 m-1 px-3 rounded-xl bg-red-600 text-white text-[15px] hover:bg-red-900 duration-500">Download CV</a>
+
             </div>
         </div>
         <!------HOME PAGE END----->
@@ -72,14 +73,7 @@
                     <p>I choose IT because i found joy in exploring how things work, and that curiosity led me to pursue a career in IT.</p>
                     <p>I aspire to become a web developer someday because I find it both exciting and challenging.</p>
                     <p>It pushes me to explore my limits  and think critically about how to solve complex logic problems.</p>
-                    <br>
-                    <p><span class="text-red-500 font-bold">Work Experience:</span></p>
-                    <p>-My <span class="text-red-500 font-bold">On the Job Training(OJT 640 hours)</span>is at DEPED School Division at City of San Jose Del Monte Bulacan.</p>  
-                    <p>In DEPED we create a system that called Electronic Requisition and Issue Slip(E-RIS) and Electronic Visitor's Logbook(E-Visitor's Logbook).</p>
-                    <br>
-                    <p>-And i also try<span class="text-red-500 font-bold">Freelancing</span>  i create a system for LCC students for their Capstone, the system is like online shop it is called Goldtags Apparel.</p>
-                    <br>
-                    <p>-And also i create our<span class="text-red-500 font-bold"> Capstone Project</span> it is called Electronic Locator Services(E-Locator Services)</p>
+            
                     <br>
                     <p><span class="text-red-500 font-bold">Hobbies:</span> </p>
                     <p>My Hobby is to Play basketball, Listening into Music, Motorcycle Ride and Working out at the Gym (not IT related).</p>
@@ -93,83 +87,80 @@
         <!-------ABOUT PAGE END----->
 
         <!-------SKILLS PAGE----->
-        <div class=" w-screen mt-72 flex flex-col items-center scroll-mt-[83px] " id="skills">
-            <h1 class="text-2xl font-bold text-center" data-aos="fade-in" data-aos-duration="1000">Skills</h1>
-            <div class="mt-5 grid grid-col-1 gap-4 justify-center md:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4" id="skills" data-aos="fade-up" data-aos-duration="1000"> 
-                <div class="php border-2 border-slate-300 flex flex-col justify-center items-center h-72 w-60 ml-10 rounded-xl">
-                    <img src="LOGO/PHP.png" alt="" srcset="" class=" object-cover w-[200px]">
-                    <p class="text-center font-bold">PHP</p>
-                    <p class="px-4">Hypertext Preprocessor (PHP) is an open-source, free server-side scripting language widely used in web development.</p>
+        <div class=" w-screen mt-72 flex flex-col items-center justify-center scroll-mt-[83px]" id="skills">
+            <h1 class="text-2xl font-bold text-center mb-5" data-aos="fade-in" data-aos-duration="1000">Skills</h1>
+            <div class="grid grid-col-1 gap-y-5 justify-center items-center md:grid-cols-3 md:gap-x-5 lg:grid-cols-4 xl:grid-cols-5" id="skills" data-aos="fade-up" data-aos-duration="1000"> 
+                <div class="flex flex-col items-center border-[1px] border-slate-300 rounded-[5px] shadow-xl h-48 w-48">
+                    <div class="img h-32 w-32 object-cover mt-5">
+                        <img src="LOGO/react.png" class=" object-fill h-full w-full rounded-[5px]">
+                    </div>
+                    <p class="text-center font-bold ">REACT JS</p>
                 </div>
-                <div class="php border-2 border-slate-300 flex flex-col justify-center items-center h-72 w-60 ml-10 rounded-xl">
-                    <img src="LOGO/HTML.png" alt="" srcset="" class=" object-cover w-[100px]">
-                    <p class="text-center font-bold">HTML</p>
-                    <p class="px-4">HyperText Markup Language (HTML) is the basic scripting language used by web browsers to render pages on the World Wide Web.</p>
+                <div class="flex flex-col items-center border-[1px] border-slate-300 rounded-[5px] shadow-xl h-48 w-48">
+                    <div class="img h-32 w-32 object-cover mt-5">
+                        <img src="LOGO/laravel.png" class=" object-fill h-full w-full rounded-[5px]">
+                    </div>
+                    <p class="text-center font-bold ">Laravel</p>
                 </div>
-                <div class="php border-2 border-slate-300 flex flex-col justify-center items-center h-72 w-60 ml-10 rounded-xl">
-                    <img src="LOGO/CSS.png" alt="" srcset="" class=" object-cover w-[150px]">
-                    <p class="text-center font-bold">CSS</p>
-                    <p class="px-4">CSS is a computer language for laying out and structuring web pages (HTML or XML).</p>
+                <div class="flex flex-col items-center border-[1px] border-slate-300 rounded-[5px] shadow-xl h-48 w-48">
+                    <div class="img h-32 w-32 object-cover mt-5">
+                        <img src="LOGO/Tailwind.png" class=" object-fill h-full w-full rounded-[5px]">
+                    </div>
+                    <p class="text-center font-bold ">Tailwind CSS </p>
                 </div>
-                <div class="php border-2 border-slate-300 flex flex-col justify-center items-center h-72 w-60 ml-10 rounded-xl">
-                    <img src="LOGO/js.png" alt="" srcset="" class=" object-cover w-[50px]">
-                    <p class="text-center font-bold">JAVASCRIPT</p>
-                    <p class="px-4">JavaScript is a scripting language that enables you to create dynamically updating content, control multimedia, animate images, and pretty much everything else</p>
+                <div class="flex flex-col items-center border-[1px] border-slate-300 rounded-[5px] shadow-xl h-48 w-48">
+                    <div class="img h-32 w-32 object-cover mt-5">
+                        <img src="LOGO/MYSQL.png" class=" object-fill h-full w-full rounded-[5px]">
+                    </div>
+                    <p class="text-center font-bold ">MySQL</p>
                 </div>
-                <div class="php border-2 border-slate-300 flex flex-col justify-center items-center h-72 w-60 ml-10 rounded-xl">
-                    <img src="LOGO/Tailwind.png" alt="" srcset="" class=" object-cover w-[50px]">
-                    <p class="text-center font-bold">TAILWIND CSS</p>
-                    <p class="px-4">Tailwind is a CSS framework that provides us with single-purpose utility classes which are opinionated for the most part, and which help us design our web pages from right inside our markup or . js/. jsx/.</p>
+                <div class="flex flex-col items-center border-[1px] border-slate-300 rounded-[5px] shadow-xl h-48 w-48">
+                    <div class="img h-32 w-32 object-cover mt-5">
+                        <img src="LOGO/api.png" class=" object-fill h-full w-full rounded-[5px]">
+                    </div>
+                    <p class="text-center font-bold ">Restful API's</p>
                 </div>
-                <div class="php border-2 border-slate-300 flex flex-col justify-center items-center h-72 w-60 ml-10 rounded-xl">
-                    <img src="LOGO/MYSQL.png" alt="" srcset="" class=" object-cover w-[150px]">
-                    <p class="text-center font-bold">MYSQL</p>
-                    <p class="px-4">MySQL is an open-source relational database management system. </p>
+                <div class="flex flex-col items-center border-[1px] border-slate-300 rounded-[5px] shadow-xl h-48 w-48">
+                    <div class="img h-32 w-32 object-cover mt-5">
+                        <img src="LOGO/figma.jfif" class=" object-fill h-full w-full rounded-[5px]">
+                    </div>
+                    <p class="text-center font-bold ">Figma</p>
                 </div>
-                <div class="php border-2 border-slate-300 flex flex-col justify-center items-center h-72 w-60 ml-10 rounded-xl">
-                    <img src="LOGO/laravel.png" alt="" srcset="" class=" object-cover w-[150px]">
-                    <p class="text-center font-bold">Laravel</p>
-                    <p class="px-4">Laravel is a free open-source PHP framework. </p>
+                <div class="flex flex-col items-center border-[1px] border-slate-300 rounded-[5px] shadow-xl h-48 w-48">
+                    <div class="img h-32 w-32 object-cover mt-5">
+                        <img src="LOGO/canva.png" class=" object-fill h-full w-full rounded-[5px]">
+                    </div>
+                    <p class="text-center font-bold ">Canva</p>
                 </div>
-                <div class="php border-2 border-slate-300 flex flex-col justify-center items-center h-72 w-60 ml-10 rounded-xl">
-                    <img src="LOGO/react.png" alt="" srcset="" class=" object-cover w-[100px]">
-                    <p class="text-center font-bold">React</p>
-                    <p class="px-4">React can be used to build web, mobile, and desktop applications, making it a versatile framework for cross-platform development.  </p>
+                <div class="flex flex-col items-center border-[1px] border-slate-300 rounded-[5px] shadow-xl h-48 w-48">
+                    <div class="img h-32 w-32 object-cover mt-5">
+                        <img src="LOGO/github.png" class=" object-fill h-full w-full rounded-[5px]">
+                    </div>
+                    <p class="text-center font-bold ">Git/Github</p>
                 </div>
-                <div class="php border-2 border-slate-300 flex flex-col justify-center items-center h-72 w-60 ml-10 rounded-xl">
-                    <img src="LOGO/api.png" alt="" srcset="" class=" object-cover w-[100px]">
-                    <p class="text-center font-bold">Restful API</p>
-                    <p class="px-4">RESTful API is an interface that two computer systems use to exchange information securely over the internet  </p>
+                <div class="flex flex-col items-center border-[1px] border-slate-300 rounded-[5px] shadow-xl h-48 w-48">
+                    <div class="img h-32 w-32 object-cover mt-5">
+                        <img src="LOGO/PHP.png" class=" object-fill h-full w-full rounded-[5px]">
+                    </div>
+                    <p class="text-center font-bold ">PHP</p>
                 </div>
-                <div class="php border-2 border-slate-300 flex flex-col justify-center items-center h-72 w-60 ml-10 rounded-xl">
-                    <img src="LOGO/postman.png" alt="" srcset="" class=" object-cover w-[150px]">
-                    <p class="text-center font-bold">Postman</p>
-                    <p class="px-4">Postman is a software application that allows developers to test, document, and share APIs (Application Programming Interfaces).</p>
+                <div class="flex flex-col items-center border-[1px] border-slate-300 rounded-[5px] shadow-xl h-48 w-48">
+                    <div class="img h-32 w-32 object-cover mt-5">
+                        <img src="LOGO/HTML.png" class=" object-fill h-full w-full rounded-[5px]">
+                    </div>
+                    <p class="text-center font-bold ">HTML</p>
                 </div>
-                <div class="php border-2 border-slate-300 flex flex-col justify-center items-center h-72 w-60 ml-10 rounded-xl">
-                    <img src="LOGO/figma.jfif" alt="" srcset="" class=" object-cover w-[90px]">
-                    <p class="text-center font-bold">Figma</p>
-                    <p class="px-4">Figma Design is for people to create, share, and test designs for websites, mobile apps, and other digital products and experiences.  </p>
+                <div class="flex flex-col items-center border-[1px] border-slate-300 rounded-[5px] shadow-xl h-48 w-48">
+                    <div class="img h-32 w-32 object-cover mt-5">
+                        <img src="LOGO/CSS.png" class=" object-fill h-full w-full rounded-[5px]">
+                    </div>
+                    <p class="text-center font-bold ">CSS</p>
                 </div>
-                <div class="php border-2 border-slate-300 flex flex-col justify-center items-center h-72 w-60 ml-10 rounded-xl">
-                    <img src="LOGO/xampp.png" alt="" srcset="" class=" object-cover w-[100px]">
-                    <p class="text-center font-bold">Xampp</p>
-                    <p class="px-4">XAMPP is a free, open-source software package that provides a local web server environment for testing and developing web applications  </p>
-                </div>
-                <div class="php border-2 border-slate-300 flex flex-col justify-center items-center h-72 w-60 ml-10 rounded-xl">
-                    <img src="LOGO/vscode.jfif" alt="" srcset="" class=" object-cover w-[100px]">
-                    <p class="text-center font-bold">Visual Studio Code</p>
-                    <p class="px-4">Visual Studio Code (VS Code) is a code editor that helps developers build, debug, and version control code.  </p>
-                </div>
-                <div class="php border-2 border-slate-300 flex flex-col justify-center items-center h-72 w-60 ml-10 rounded-xl">
-                    <img src="LOGO/github.png" alt="" srcset="" class=" object-cover w-[70px]">
-                    <p class="text-center font-bold">Github</p>
-                    <p class="px-4">GitHub is a web-based interface that uses Git, the open source version control software that lets multiple people make separate changes to web pages at the same time.  </p>
-                </div>
-                <div class="php border-2 border-slate-300 flex flex-col justify-center items-center h-72 w-60 ml-10 rounded-xl">
-                    <img src="LOGO/canva.png" alt="" srcset="" class=" object-cover w-[150px]">
-                    <p class="text-center font-bold">Canva</p>
-                    <p class="px-4">Canva is an online design platform that allows users to create visual content </p>
+                <div class="flex flex-col items-center border-[1px] border-slate-300 rounded-[5px] shadow-xl h-48 w-48">
+                    <div class="img h-32 w-32 object-cover mt-5">
+                        <img src="LOGO/JS.png" class=" object-fill h-full w-full rounded-[5px]">
+                    </div>
+                    <p class="text-center font-bold ">JavaScript</p>
                 </div>
             </div>
         </div>
@@ -179,8 +170,8 @@
         <!-------PROJECT PAGE----->
         <div class="project  mt-52 w-screen flex flex-col items-center scroll-mt-[40px] " data-aos="fade-down" data-aos-duration="1000" id="project">
                 <h1 class="text-2xl font-bold text-center">Project</h1>
-                <div class="mt-5 grid grid-cols-1 gap-4 md:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 ">
-                    <div class="ris border-2 border-slate-300 h-72 w-64 ml-10 rounded-xl">
+                <div class="mt-5 grid grid-cols-1 gap-y-5 md:grid-cols-2 md:gap-x-5 lg:grid-cols-3 xl:grid-cols-4">
+                    <div class="ris border-2 border-slate-300 h-72 w-64 rounded-xl shadow-xl ">
                         <div class="img">
                             <div class="w-full h-24 bg-contain bg-no-repeat bg-center mt-5 z-10" style="background-image: url(LOGO/depedcsjdmlogo.png);"></div>
                         </div>
@@ -190,7 +181,7 @@
                         </div>
                     </div>
     
-                    <div class="e-logsheet border-2 border-slate-300 h-72 w-64 ml-10 rounded-xl">
+                    <div class="e-logsheet border-2 border-slate-300 h-72 w-64 rounded-xl shadow-xl ">
                         <div class="img">
                             <div class="w-full h-24 bg-contain bg-no-repeat bg-center mt-5 z-10" style="background-image: url(LOGO/depedcsjdmlogo.png);"></div>
                         </div>
@@ -200,7 +191,7 @@
                         </div>
                     </div>
     
-                    <div class="e-locator border-2 border-slate-300 h-72 w-64 ml-10 rounded-xl">
+                    <div class="e-locator border-2 border-slate-300 h-72 w-64  rounded-xl shadow-xl ">
                         <div class="img">
                             <div class="w-full h-24 bg-contain bg-no-repeat bg-center mt-5 z-10" style="background-image: url(LOGO/E-locator.png);"></div>
                         </div>
@@ -210,7 +201,7 @@
                         </div>
                     </div>
     
-                    <div class="goldtags border-2 border-slate-300 h-72 w-64 ml-10 rounded-xl">
+                    <div class="goldtags border-2 border-slate-300 h-72 w-64  rounded-xl shadow-xl ">
                         <div class="img">
                             <div class="w-full h-24 bg-contain bg-no-repeat bg-center mt-5 z-10" style="background-image: url(LOGO/goldtags.png);"></div>
                         </div>
@@ -219,7 +210,7 @@
                             <button class="bg-blue-500 px-4 mt-5 pt-1 pb-1 text-white rounded-md hover:bg-blue-800 duration-500" onclick="goldtags()">See Image</button>
                         </div>
                     </div>
-                    <div class="reactjs border-2 border-slate-300 h-72 w-64 ml-10 rounded-xl">
+                    <div class="reactjs border-2 border-slate-300 h-72 w-64  rounded-xl shadow-xl ">
                         <div class="img">
                             <div class="w-full h-24 bg-contain bg-no-repeat bg-center mt-5 z-10" style="background-image: url(LOGO/KFClogo.png);"></div>
                         </div>
@@ -228,8 +219,16 @@
                             <button class="bg-blue-500 px-4 mt-5 pt-1 pb-1 text-white rounded-md hover:bg-blue-800 duration-500" onclick="kfc()">See Image</button>
                         </div>
                     </div>
+                    <div class="reactjs border-2 border-slate-300 h-72 w-64  rounded-xl shadow-xl ">
+                        <div class="img">
+                            <div class="w-full h-24 bg-contain bg-no-repeat bg-center mt-5 z-10 " style="background-image: url(LOGO/bestie_logo.jfif);"></div>
+                        </div>
+                        <div class="see_img mt-14 ml-5">
+                            <p class="pb-5 font-bold  mb-7">Besties</p>
+                            <a href="https://www.bestiesuae.com/" target="_blank" class="bg-blue-500 px-4  pt-1 pb-1 text-white rounded-md hover:bg-blue-800 duration-500">See Website</a>
+                        </div>
+                    </div>
                 </div>
-            </div>
         </div>
         
        <!-------PROJECT PAGE END----->
@@ -251,27 +250,27 @@
                             <a href="https://www.linkedin.com/in/ivan-policarpio-91476729b" title="Linked-In" class="hover:text-purple-600 duration-500"><i class="fa-brands fa-linkedin"> <span>Linked-In</span></i></a>
                         </div>
                         <div class="email lg:ml-40 xl:ml-96"  >
-                            <p><i class="fa-solid fa-envelope"></i> <span>ivanpolicarpio015@gmail.com</span></p>
+                            <a href="mailto:ivanpolicarpio015@gmail.com" class="hover:text-purple-600 duration-500"><i class="fa-solid fa-envelope"></i> <span>ivanpolicarpio015@gmail.com</span></a>
                             <p><i class="fa-solid fa-phone"></i> <span>+639485905921</span></p>
                         </div>
                     </div>
                 </div>
             </div>
-            <div class="copyright text-center w-screen bg-slate-300 mt-5 dark:bg-slate-700 ">
+            <div class="copyright text-center w-screen bg-slate-300 mt-5  ">
                 <p><i class="fa-regular fa-copyright"></i>Copyright. All rights reserved.</p>
             </div>
         </div>
     
         <!---FOOTER END-->
-        <div class="hire_me_modal bg-slate-300 rounded-lg dark:bg-slate-700" id="modal">
+        <div class="hire_me_modal bg-slate-300 rounded-lg " id="modal">
             <div class="modal">
                 <form action="send_message.php" method="post" class="flex items-center justify-center flex-col">
                     <button type="button" class="fixed right-3 top-1 font-bold text-lg hover:text-red-500 duration-500" onclick="asd()"><i class="fa-solid fa-x"></i></button>
                     <input type="hidden" name="my_email" value="ivanpolicarpio015@gmail.com">
                     <h1 class=" text-xl font-bold mt-3">Send me message</h1>
-                    <input type="text" id="your_email" name="your_email" placeholder="your_email@gmail.com" class="dark:text-black mt-5 w-60 border-[1px] border-black rounded-lg outline-none" required autocomplete="off">
-                    <textarea name="message" id="mensahe" class="dark:text-black resize-none mt-2 h-56 w-80 rounded-xl border-[1px] border-black outline-none" placeholder="Hire me :>" required></textarea>
-                    <button type="button" name="submit" id="sender" class="dark:bg-emerald-800 mt-5 bg-emerald-500 pl-2 pr-2 pt-1 pb-1 rounded-md hover:bg-emerald-700 hover:text-white duration-500" onclick="mensahe()">Send <i class="fa-solid fa-paper-plane"></i></button>
+                    <input type="text" id="your_email" name="your_email" placeholder="your_email@gmail.com" class="d mt-5 w-60 border-[1px] border-black rounded-lg outline-none" required autocomplete="off">
+                    <textarea name="message" id="mensahe" class="d resize-none mt-2 h-56 w-80 rounded-xl border-[1px] border-black outline-none" placeholder="Hire me :>" required></textarea>
+                    <button type="button" name="submit" id="sender" class=" mt-5 bg-emerald-500 pl-2 pr-2 pt-1 pb-1 rounded-md hover:bg-emerald-700 hover:text-white duration-500" onclick="mensahe()">Send <i class="fa-solid fa-paper-plane"></i></button>
                     <p id="sending" class="hidden mt-2">Sending....</p>
                 </form>
             </div>
